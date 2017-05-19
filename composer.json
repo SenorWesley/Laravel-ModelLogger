@@ -1,0 +1,25 @@
+{
+    "name": "wesleypeeters/model-logger",
+    "description": "senorwesley/model-logger",
+    "type": "package",
+    "license": "Cheeseburgerware",
+    "authors": [
+        {
+            "name": "Wesley Peeters",
+            "email": "me@wesleypeeters.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SenorWesley\\ModelLogger\\": "src/"
+        },
+        "classmap": [
+            "src/helpers.php"
+        ]
+    },
+
+    "require": {
+        "moloquent/moloquent": "dev-master"
+    }
+}
