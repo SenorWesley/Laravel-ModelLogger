@@ -20,6 +20,6 @@
     },
 
     "require": {
-        "moloquent/moloquent": "dev-master"
+        "moloquent/moloquent": "^0.4.0"
     }
 }
